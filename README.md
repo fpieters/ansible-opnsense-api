@@ -28,9 +28,9 @@ None.
 
 ## Example Playbook
 
-- hosts: firewall
-  roles:
-    - ansible-role-opnsense-api
+    - hosts: firewall
+      roles:
+        - ansible-role-opnsense-api
 
 ## License
 
