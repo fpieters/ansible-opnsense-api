@@ -1,0 +1,15 @@
+---
+- name: Test basic auth for Uri module
+  uri:
+    url: https://{{ansible_host}}:{{api_port}}/api/{{api_url}}
+    method: GET
+    url_username: "{{api_key}}"
+    url_password: "{{api_secret}}"
+    force_basic_auth: yes
+    validate_certs: no
+    return_content: no
+  register: basic
+
+- name: debug
+  debug:
+    var: basic
