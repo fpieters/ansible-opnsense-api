@@ -23,6 +23,3 @@ api_secret: !vault |
           32346261343539626236656563633931353339663833393430383731363537313634386266346361
           3539
 api_url: diagnostics/firewall/log
-
-template_dir: /usr/local/opnsense/service/templates/OPNsense
-template_sample: Sample/sample2
