@@ -30,7 +30,7 @@ None.
 
     - hosts: firewall
       roles:
-        - ansible-role-opnsense-api
+        - ansible-opnsense-api
 
 ## License
 
